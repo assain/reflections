@@ -23,8 +23,20 @@ if things go smooth else discard.
 
 How do the diagrams help you visualize the branch structure?
 
+Now, I realize the Head detached message, and why certain commits of mine get lost
+because the commits are unreachable from the tip of the branch.
+
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+Merging two branches helps to keep the the production branch ready with the 
+new features. The diagram helps us to visualize it, and realize which commits 
+are actually reachable.
+
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+
+Pros it merges branched without user interference in cases on ambiguity.
+However, you'll need to interfere in case of ambiguity.
+You'll have to do a lot of pointer manipulations in case you're doing it 
+all by yourself.
