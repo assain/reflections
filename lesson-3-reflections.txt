@@ -35,6 +35,9 @@ and what would be harder?
     It would be harder to propose new features using pull requests and getting feedback on it
     and commiting changes to fix anything.
 
+    Besides without git, version controlling and managing files would have been harder to
+    do by keeping track of things manually.
+
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
